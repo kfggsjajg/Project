@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="main.css">
+    <!-- style -->
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- fonts -->
+
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+    <!-- scripts -->
+
+</head>
+
+<body>
+    <header class="head">
+        <div class="header-block">
+            <div onclick="dropDown()" class="dropdown-menu">
+                <div class="dropDown-pic">
+                    <img style="width: 25px; filter: invert(1);" src="assets/icons/down-arrow.png" alt="">
+                </div>
+            </div>
+            <div style="background: transparent;  border-color: transparent;" id="dropDown-section"
+                class="dropDown-section">
+                <ul style="list-style-type: none;" class="list">
+                    <li class="list-link"><a style="color: transparent;" id="link1" class="link" href="about_us.html">О
+                            нас</a></li>
+                    <li class="list-link"><a style="color: transparent;" id="link2" class="link"
+                            href="themes.html">Темы</a></li>
+                    <li class="list-link"><a style="color: transparent;" id="link3" class="link" href="#course">Курсы</a></li>
+                    <li class="list-link"><a style="color: transparent;" id="link4" class="link" href="#repetitor">Репетиторы</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="assets/icons/Logo.png" style="height:90px; position: relative; left: -230px;" alt="">
+            <a class="contacts" href="tel: 8 777 666 55 44">Контакты</a>
+    </header>
+    <!--main-->
+    <main class="main">
+        <div class="section-landing">
+            <div class="text">
+                <p class="landing-title-frst">Привет</p>
+                <p class="landing-title-scnd">Дорогой друг</p>
+                <p class="landing-text">Здесь, на нашем сайте, вы повысите свой уровень знаний по математике.Для этого у
+                    нас на сайте есть информация по каждой интересующей вас теме, и если что-то непонятно, вы всегда
+                    можете обратиться к преподавателям или купить курс.</p>
+            </div>
+        </div>
+        <div class="section-text">
+        </div>
+        </div>
+        <!--repetitor-->
+        <div id="repetitor" class="repetitor">
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img style="width: 80px;" src="assets/icons/icon.png" alt="">
+                                <p class="name">Григорьев Владислав</p>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                            </h3>
+                            <p class="">Образование:
+                                Получил диплом Казанского (Приволжского) федерального университета, Институт физики,
+                                направление подготовки – радиофизика, бакалавр, 2012–2016 гг.
+                                Опыт:
+                                Репетиторский стаж с 2015 года — 6 лет.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img style="width: 80px;" src="assets/icons/icon.png" alt="">
+                                <p class="name">Наталия Михайловна</p>
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                            </h3>
+                            <p class="">Образование:
+                                Ферганский педагогический институт, математический факультет, учитель математики (диплом
+                                с отличием),, 1978 г.
+                                Кандидат физико-математических наук, 1998 г.
+                                Опыт:
+                                Преподаватель математики в школе, вузах; преподаватель Казанского государственного
+                                аграрного университета — 36 лет.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img style="width: 80px;" src="assets/icons/icon.png" alt="">
+                                <p class="name">Сагдетдинов Азат</p>
+                                <i class="fa fa-github-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                            </h3>
+                            <p class="">Образование:
+                                Окончил Высшую школу КГБ, технический факультет (Институт криптографии, связи и
+                                информатики), специальность – прикладная математика, 1991 г.
+                                Опыт:
+                                Частный преподаватель — 20 лет</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img style="width: 80px;" src="assets/icons/icon.png" alt="">
+                                <p class="name">Рязанов Данил</p>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                            </h3>
+                            <p class="">Образование:
+                                Кандидат физико-математических наук, 1981 г.
+                                Доктор педагогических наук, 2002 г.
+                                Профессор, 2004 г.
+                                Опыт:
+                                Репетиторство — 23 года.
+                                Опыт преподавания в школе и вузе, работала в педагогическом университете, 1976–2018 гг.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img style="width: 80px;" src="assets/icons/icon.png" alt="">
+                                <p class="name">Дюжев Кирилл</p>
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                            </h3>
+                            <p class="">Образование:
+                                КФУ, Институт математики, кафедра физики молекулярных систем, специальность – бакалавр
+                                физики, 2008 г.
+                                Повышение квалификации: Московский математическо-технический институт, программа –
+                                высокопроизводительные вычисления в прикладном численном моделировании, 2009 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img style="width: 80px;" src="assets/icons/icon.png" alt="">
+                                <p class="name">Фахрисламов Идьдар</p>
+                                <i class="fa fa-github-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                            </h3>
+                            <p class="">Образование: Казанский государственный университет им. В.И. Ульянова-Ленина,
+                                факультет вычислительной математики и кибернетики, диплом аспиранта.
+                                Окончил математическую общеобразовательную школу №131.
+                                Опыт работы – учитель математики </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--cards--->
+        <div id="course" class="section-card">
+            <section class="cards">
+                <div class="container-card-div">
+                    <ul>
+                        <li
+                            style="list-style-type: none;font-size: 30px;font-weight: 600;letter-spacing: 3px;margin-right: 30px;">
+                            Курсы на месяц
+                        </li>
+                        <li
+                            style="list-style-type: none;font-size: 25px;font-weight: 400;margin-top: 30px;margin-right: 35px;">
+                            2612 руб
+                        </li>
+                    </ul>
+                    <div class="button-cards">
+                        <a href="#popup" >Записаться</a>
+                    </div>
+                    <div id="popup" class="popup">
+                        <div class="popup__body">
+                            <div class="popup__content">
+                                <a id="pop" class="popup__close" href="#pop">X</a>
+                                <div class="popup__title"><p>Записаться на курсы</p></div>
+                                <input type="text" placeholder="телефон">
+                                <input type="text" placeholder="номер карты">
+                                <button class="">Записаться</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-card-div">
+                    <ul>
+                        <li
+                            style="list-style-type: none;font-size: 30px;font-weight: 600;letter-spacing: 3px;margin-right: 30px;">
+                            Курсы на 3 месяц
+                        </li>
+                        <li
+                            style="list-style-type: none;font-size: 25px;font-weight: 400;margin-top: 30px;margin-right: 33px;">
+                            6345 руб
+                        </li>
+                    </ul>
+                    <div class="button-cards">
+                        <a href="#popup" >Записаться</a>
+                    </div>
+                    <div id="popup" class="popup">
+                        <div class="popup__body">
+                            <div class="popup__content">
+                                <a class="popup__close" href="#">X</a>
+                                <div class="popup__title"><p>Записаться на курсы</p></div>
+                                <input type="text" placeholder="телефон">
+                                <input type="text" placeholder="номер карты">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-card-div">
+                    <ul>
+                        <li
+                            style="list-style-type: none;font-size: 30px;font-weight: 600;letter-spacing: 3px;margin-right: 30px;">
+                            Курсы на 6 месяцев
+                        </li>
+                        <li
+                            style="list-style-type: none;font-size: 25px;font-weight: 400;margin-top: 30px;margin-right: 30px ;">
+                            20345 руб
+                        </li>
+                    </ul>
+                    <div class="button-cards">
+                        <a href="#popup" >Записаться</a>
+                    </div>
+                    <div id="popup" class="popup">
+                        <div class="popup__body">
+                            <div class="popup__content">
+                                <a class="popup__close" href="#">X</a>
+                                <div class="popup__title"><p>Записаться на курсы</p></div>
+                                <input type="text" placeholder="телефон">
+                                <input type="text" placeholder="номер карты">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-card-div">
+                    <ul>
+                        <li
+                            style="list-style-type: none;font-size: 30px;font-weight: 600;letter-spacing: 3px;margin-right: 30px;">
+                            Курсы на год
+                        </li>
+                        <li
+                            style="list-style-type: none;font-size: 25px;font-weight: 400;margin-top: 70px;margin-right: 32px;">
+                            56743 руб
+                        </li>
+                    </ul>
+                    <div class="button-cards">
+                        <a href="#popup" >Записаться</a>
+                    </div>
+                    <div id="popup" class="popup">
+                        <div class="popup__body">
+                            <div class="popup__content">
+                                <a class="popup__close" href="#">X</a>
+                                <div class="popup__title"><p>Записаться на курсы</p></div>
+                                <input type="text" placeholder="телефон">
+                                <input type="text" placeholder="номер карты">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a class="vk" href="https://vk.com/id470184200"><img src="assets/img/icons8-vk-50.png" alt=""></a>
+        <a class="discord" href="https://discord.gg/vhwg8p9q"><img src="assets/img/icons8-discord-50.png" alt=""></a>
+        <a class="tellegram" href=""><img src="assets/img/icons8-телеграм-50.png" alt=""></a>
+        <a class="mail" href="https://mail.google.com/mail/data/u/1/">izanbaevmihail@gmail.com</a>
+    </footer>
+</body>
+
+</html>
